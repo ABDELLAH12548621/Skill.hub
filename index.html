@@ -1,58 +1,44 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>SkillHub </title>
-  <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SkillHub - Skills Education Platform</title>
+  <title>SkillHub - تعلم المهارات العملية</title>
   <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="منصة لتعلم المهارات الحديثة: برمجة، تصميم، وتسويق رقمي.">
+  <meta name="keywords" content="تعلم, برمجة, تصميم, تسويق رقمي, مهارات رقمية">
 </head>
 <body>
   <header>
-    <h1>منصة SkillHub لتعلم المهارات العملية</h1>
+    <div class="container">
+      <h1>💡 SkillHub</h1>
+      <p>منصة لتعلم المهارات الرقمية بأسلوب بسيط وفعال.</p>
+      <a href="#sections" class="btn">ابدأ الآن</a>
+    </div>
   </header>
 
-  <main>
-    <section class="video-player-section">
-      <div class="video-container">
-        <iframe
-          id="videoPlayer"
-          width="100%"
-          height="400"
-          src=""
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+  <main id="sections">
+    <section class="cards">
+      <div class="card">
+        <h2>💻 برمجة</h2>
+        <p>تعلم أساسيات Python، JavaScript، HTML و CSS.</p>
+        <a href="#">دروس البرمجة</a>
       </div>
-      <h2 id="videoTitle">Choose a lesson from the list.</h2>
-      <p id="videoDescription">The lesson description will appear here after selecting a video..</p>
+      <div class="card">
+        <h2>🎨 تصميم</h2>
+        <p>فهم أساسيات تصميم الويب، واجهات المستخدم، وأدوات مثل Figma.</p>
+        <a href="#">دروس التصميم</a>
+      </div>
+      <div class="card">
+        <h2>📣 تسويق رقمي</h2>
+        <p>تعلّم كيف تسوّق منتجك عبر وسائل التواصل والإعلانات الرقمية.</p>
+        <a href="#">دروس التسويق</a>
+      </div>
     </section>
-
-    <aside class="lesson-list">
-      <h3>قائمة الدروس</h3>
-      <ul id="lessons"></ul>
-    </aside>
   </main>
 
-  <script src="script.js"></script>
-</body>
-</html>
-<meta name="description" content="منصة لتعلم البرمجة والتسويق الرقمي بطريقة سهلة ومجانية.">
-<meta name="keywords" content="برمجة, HTML, CSS, JavaScript, Python, تسويق رقمي, تعليم">
-<meta name="author" content="اسمك أو اسم الموقع">
-<!-- partial -->
-  <script  src="./script.js"></script>
-
+  <footer>
+    <p>© 2025 SkillHub. جميع الحقوق محفوظة.</p>
+  </footer>
 </body>
 </html>
